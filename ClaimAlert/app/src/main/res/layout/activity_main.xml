@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/purple_200"
+        android:backgroundTintMode="src_over" />
+
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+
+        android:fontFamily="serif-monospace"
+        android:text="Developed By @Akhil Anupoju"
+        android:textAlignment="center"
+        android:textColor="#373535"
+        android:textSize="14sp"
+
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="235dp"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="Add Item"
+        android:foreground="@drawable/ic_baseline_add_24"
+        app:borderWidth="0dp"
+        tools:ignore="RelativeOverlap" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="refresh"
+        android:foreground="@drawable/ic_baseline_refresh_24"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:borderWidth="0dp"
+        tools:ignore="RelativeOverlap" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/refreshButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="@color/purple_500"
+        android:backgroundTintMode="src_over"
+        android:contentDescription="settings"
+        android:foreground="@drawable/ic_baseline_settings_24"
+        app:borderWidth="0dp"
+        tools:ignore="RelativeOverlap" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+
+        android:backgroundTint="@color/purple_500"
+        android:backgroundTintMode="src_over"
+        android:contentDescription="help button"
+        android:foreground="@drawable/ic_baseline_help_outline_24"
+        app:borderWidth="0dp"
+        tools:ignore="RelativeOverlap"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Sort By: Name"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="31dp"
+
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="add" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/sortButton"
+        android:backgroundTint="@android:color/system_accent3_300"
+        android:spinnerMode="dropdown" />
+
+</RelativeLayout>
