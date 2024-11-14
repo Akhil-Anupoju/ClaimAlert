@@ -34,11 +34,13 @@ public class SettingsDatabaseHandler extends SQLiteOpenHelper {
             getWritableDatabase().execSQL(query);
 
             addCategory("All Items",0);
+            addCategory("Warranty Documents",0);
+            addCategory("Important Dates",0);
+            addCategory("Pollicies",0);
             addCategory("Grocery",0);
             addCategory("Frozen Items",0);
             addCategory("Snacks",0);
             addCategory("Medicine",0);
-            addCategory("Important Dates",0);
 
         }
     }
@@ -51,12 +53,15 @@ public class SettingsDatabaseHandler extends SQLiteOpenHelper {
                 + TYPE_COL + " INTEGER)";
         sqLiteDatabase.execSQL(query);
 
+
         addCategory("All Items",0);
+        addCategory("Warranty Documents",0);
+        addCategory("Important Dates",0);
+        addCategory("Pollicies",0);
         addCategory("Grocery",0);
         addCategory("Frozen Items",0);
         addCategory("Snacks",0);
         addCategory("Medicine",0);
-        addCategory("Important Dates",0);
     }
 
     public boolean addCategory(String categoryName, int type) {

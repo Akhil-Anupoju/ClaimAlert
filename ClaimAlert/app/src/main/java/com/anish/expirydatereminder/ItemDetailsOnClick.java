@@ -83,7 +83,7 @@ public class ItemDetailsOnClick extends AppCompatActivity {
         categoryName.setText("Category: "+category_name);
 
         itemImage = findViewById(R.id.imageView);
-        itemImage.setRotation(90);
+//        itemImage.setRotation(90);
 
         checkIfImageExistsAlready();
 

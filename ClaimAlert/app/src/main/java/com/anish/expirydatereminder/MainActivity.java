@@ -243,10 +243,12 @@ public class MainActivity extends AppCompatActivity implements DialogHandler.Exa
         }
 
         String totalItem;
+        String icon = "➜  ";
+
         if(dateFormat == 1) {
-            totalItem = m + "/" + d + "/" + year + " : " + itemName;
+            totalItem =icon + " " + m + "/" + d + "/" + year + " : " + itemName;
         }
-        else totalItem = d + "/" + m + "/" + year + " : " + itemName;
+        else totalItem =icon + " " + d + "/" + m + "/" + year + " : " + itemName;
         if(!itemName.isEmpty()){
             itemsAdapter.add(totalItem);
         }

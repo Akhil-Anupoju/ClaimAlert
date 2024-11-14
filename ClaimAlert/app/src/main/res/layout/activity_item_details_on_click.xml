@@ -82,6 +82,7 @@
 
         android:contentDescription="image of the item"
         android:padding="6dp"
+        android:rotationY="0"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="ImageContrastCheck" />
 
