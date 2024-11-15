@@ -1,9 +1,9 @@
-# Expiry Date Reminder
+# Claim Alert
 App that tracks items purchased according to expiry date, and reminds the user. Plus, many other useful grocery/inventory management features
 
 ## About
 
-Expiry Date Reminder is an app created to help you keep track of expiry dates. 
+Claim Alert is an app created to help you keep track of expiry dates. 
 Get reminded by notifications once something is expiring within 14 days.
 
 This application has been created by AKhil Anupoju, and has been released under the MIT license.
