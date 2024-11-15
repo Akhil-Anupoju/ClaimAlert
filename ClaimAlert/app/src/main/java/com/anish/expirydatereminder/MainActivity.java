@@ -281,12 +281,13 @@ public class MainActivity extends AppCompatActivity implements DialogHandler.Exa
         }
 
         String text;
+        String icon = "➜  ";
 
         DateFormatDatabase dfd = new DateFormatDatabase(getApplicationContext());
         if(dfd.getCurrentFormat() == 1){
-            text = m + "/" + d + "/" + year + " : " + itemName;
+            text =icon + m + "/" + d + "/" + year + " : " + itemName;
         }
-        else text = d + "/" + m + "/" + year + " : " + itemName;
+        else text =icon + d + "/" + m + "/" + year + " : " + itemName;
 
         itemsAdapter.add(text);
         dbHandler.addNewItem(new ItemModel(itemName,month,year,date,category));
